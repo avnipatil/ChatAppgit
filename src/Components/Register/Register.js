@@ -137,7 +137,7 @@ const Register = () =>{
                 <div className="col md-6 col-lg-6 col-sm-12 col-xs-12">
                     {/* <img src={signimg} width="70%" className="secimg"></img> */}
                     <div class ="maincontainer">
-                    <div class = "container">
+                    <div class = "regicontainer container">
                     <div id="output"></div>
                     <h2 className="signuptxt">Register User</h2>
                     <form className="regform-box">

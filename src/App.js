@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-// import Register from "./components/Register/register"
+
+import { BrowserRouter,Route,Link,Switch } from 'react-router-dom';
+
+//Components List 
 import Login from "./Components/Login/Login"
 import Register from './Components/Register/Register';
-import { BrowserRouter,Route,Link,Switch } from 'react-router-dom';
+import Topnav from './Components/Topnav/Topnav';
+import Chatmain from './Components/Chatmain/Chatmain'
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
 
   return (
@@ -15,7 +20,8 @@ function App() {
             <Route path='/' exact={true} component={Login} />
               <Route path="/Login" exact={true} component={Login}/>
               <Route path="/Register" exact={true} component={Register}/>
-                 
+              <Route path="/Topnav" exact={true} component={Topnav}/>
+              <Route path="/Chatmain" exact={true} component={Chatmain}/> 
           </Switch>
         </div>
     </BrowserRouter>

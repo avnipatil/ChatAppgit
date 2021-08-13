@@ -17,7 +17,7 @@ const Login = () =>{
                 </div>
         <div class="col md-6 col-lg-6 col-sm-12 col-xs-12">
              <div class ="maincontainer">
-            <div class = "container">
+            <div class = "container logincontainer">
             <div id="output"></div>
             <h2 class="signuptxt">Sign up</h2>
             <form class="form-box">
